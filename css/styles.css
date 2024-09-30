@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+
+}
+
+section,footer {
+    padding: 54px 0;
+}
+
+h3{
+    font-size: 40px;
+}
+
+p{
+    color: rgb(7, 7, 7);
+}
+
+.box{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    background-image: url(../images/backgroundcblol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    color: rgb(0, 0, 0);
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+/* "underline" sob as linha */
+nav ul a::after{
+    content: "";
+    background-color: rgb(73, 17, 20);
+    height: 3px;
+    width: 0;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+/* animação da "underline" */
+nav ul a:hover::after{
+    width: 100%;
+
+}
+
+.btn{
+    background-color: #7fffd4;
+    color: rgb(61, 15, 15);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+
+.btn:hover{
+    background-color: #53ddaf;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1{
+    font-size: 96px;
+    color: rgb(0, 0, 0);
+}
+
+.banner .banner-text p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(212, 212, 212);
+    margin: 12px 0;
+}
+
+
+/* conheça um pouco */
+.conheca-um-pouco{
+    background-color: rgb(238, 233, 255);
+}
+
+.conheca-um-pouco .box{
+    display: flex;
+    align-items: center;
+    background-color: #e1d4ffc5;
+}
+
+.conheca-um-pouco .conheca-um-pouco-text{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.conheca-um-pouco .conheca-um-pouco-text h3{
+    font-size: 56px;
+}
+
+.conheca-um-pouco .conheca-um-pouco-text p{
+    margin: 5px 0 10px 0;
+}
+
+.conheca-um-pouco .conheca-um-pouco-img{
+    width: 50%;
+}
+
+.conheca-um-pouco .conheca-um-pouco-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Playoff */
+.playoff-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Sobre */
+
+.sobre{
+    background-color: rgb(0, 0, 0);
+    display: flex;  
+}
+
+.sobre .sobre-text h2{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+
+}
+
+
+/* Times */
+.times{
+    color: white;
+    background-color: black;
+}
+
+body{
+    background-color: rgb(68, 68, 68);
+}
